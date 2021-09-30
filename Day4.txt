@@ -7,3 +7,76 @@ should be able to handle loaders, empty states and errors in React JS
 
 Solo coding for today 
 
+Strive restaurant 
+
+code . && npm start - open editor and npm 
+
+Create Reserversations Component 
+
+class Component , inject some logic 
+
+class Reservations extends Component {
+render() {
+	return(
+	<h1>Reservations</h1>
+)
+}}
+
+export default Reservations
+
+import Reservations, {Reservations2} from ...
+
+window.onload()
+
+state = {
+	// reservation will come as an array of objects
+	reservations : []
+	
+}
+
+{this.state.reservations.map(r => (<ListGroup.Item key={r.id}>{r.name}</ListGroup.Item>))}
+
+ArrowFunction = () =>{let name = "..." return name}
+
+ArrowFunction = () => name
+
+componentDidMount // lifescycle method after the initial render 
+
+componentDidMount async () {
+	// will happen 1-just once 2- immediately after initial invocation of render
+}
+
+try{}catch{} method
+
+let data  = await response.json()
+
+this.setState({reservations : data})
+
+do not setState inside render // it fires an infinite loop 
+
+adding to the UX
+-Spinner
+
+add isLoading to State // boolean 
+-isLoading : true
+
+{
+	this.state.isLoading && spinner..
+}
+
+this.setState({isLoading : false})
+
+working with dates is a pain 
+
+date-fns 
+
+npmjs.com - find package
+
+npm i date-fns // command
+
+two step process to work with this 
+
+parseISO() method //parse a string in ISO 8601 format and return a instance of Date
+format(parseISO(r.dateTime), 'yyyy-MMMM-d-HH:mm')
+
+
