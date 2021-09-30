@@ -20,4 +20,8 @@ footer {
 
 .book-cover {
   cursor: pointer;
+  width: 33%;
+  margin: 1px;
+  padding: 15px;
+  
 }
