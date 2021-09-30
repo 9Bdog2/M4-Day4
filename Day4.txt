@@ -1,0 +1,9 @@
+Component Lifecycle 
+
+Consistent user experience , include Loaders, error Message and Empty States
+
+Lear how to fetch external daa ReactJS Application 
+should be able to handle loaders, empty states and errors in React JS
+
+Solo coding for today 
+
